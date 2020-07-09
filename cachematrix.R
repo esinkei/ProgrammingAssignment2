@@ -1,4 +1,5 @@
-## makeCacheMatrix function makes a matrix object that can cache its inverse.
+##  This R script has 2 functions viz. makeCacheMatrix and cacheSolve.
+##makeCacheMatrix function makes a matrix object that can cache its inverse.
 ## cacheSolve function computes the inverse of matrix object retrieved from the
 ## makeCacheMatrix but if the inverse has already been cached then it returns
 ## the inverse from the cache.

@@ -34,3 +34,5 @@ cacheSolve <- function(x, ...) {
        x$setinverse(inv)
        inv
 }
+##cacheSolve makes use of of the makeCacheMatrix to retrieve cached inverse if it
+##exists
